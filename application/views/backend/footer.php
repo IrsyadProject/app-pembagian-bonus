@@ -1,4 +1,4 @@
-<footer class="bg-primary text-center mt-5 p-3 text-white">Copyright&copy;<a href="" class=" text-decoration-none text-warning fw-bold">Irsyad Project</a></footer>
+<footer class="bg-primary text-center mt-5 p-3 text-white">Copyright&copy;2024 <a href="https://www.instagram.com/99ir.ib/" class=" text-decoration-none text-warning fw-bold"><i class="fa-brands fa-instagram fa-fw"></i> Irsyad Project</a></footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -126,6 +126,16 @@
 			// Jika validasi berhasil, kirim formulir
 			this.submit();
 		});
+	});
+
+	$(document).on('click', '.view-btn', function() {
+		var total = $(this).data('total');
+		var jumlah = $(this).data('jumlah');
+		var presentase = $(this).data('presentase');
+
+		$('#viewBonusModal .modal-body #totalBonus').text(total);
+		$('#viewBonusModal .modal-body #jumlahBuruh').text(jumlah);
+		$('#viewBonusModal .modal-body #detailPresentase').html(presentase);
 	});
 </script>
 

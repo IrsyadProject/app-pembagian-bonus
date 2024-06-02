@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Waktu pembuatan: 02 Jun 2024 pada 15.41
+-- Waktu pembuatan: 02 Jun 2024 pada 22.28
 -- Versi server: 8.0.30
--- Versi PHP: 7.4.33
+-- Versi PHP: 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,16 @@ CREATE TABLE `bonus` (
 
 INSERT INTO `bonus` (`idbonus`, `total`, `jumlah_buruh`, `presentase`, `dibuat`) VALUES
 (3, 1000000, 4, '30,20,20,30', '2024-06-02 14:27:54'),
-(4, 300000, 5, '30,20,20,20,10', '2024-06-02 14:28:42');
+(4, 300000, 5, '30,20,20,20,10', '2024-06-02 14:28:42'),
+(6, 100000, 3, '50,40,10', '2024-06-02 22:18:41'),
+(7, 450000, 4, '20,30,30,20', '2024-06-02 22:19:09'),
+(8, 730000, 3, '50,35,15', '2024-06-02 22:20:19'),
+(9, 300000, 2, '25,75', '2024-06-02 22:21:14'),
+(10, 2000000, 3, '60,20,20', '2024-06-02 22:22:01'),
+(11, 3255500, 2, '65,35', '2024-06-02 22:22:42'),
+(12, 5000000, 3, '30,20,50', '2024-06-02 22:23:23'),
+(13, 450500, 3, '45,30,25', '2024-06-02 22:24:09'),
+(14, 259000, 2, '40,60', '2024-06-02 22:24:35');
 
 -- --------------------------------------------------------
 
@@ -62,7 +71,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `role`, `dibuat`) VALUES
-(1, 'admin', '$2y$10$ABYpUS37sYNTIjyNTIkP2OsiTtPGuXwgV9vvfxdfZ60Cq.pEB074a', 'admin', '2024-06-02 11:57:36');
+(1, 'admin', '$2y$10$ABYpUS37sYNTIjyNTIkP2OsiTtPGuXwgV9vvfxdfZ60Cq.pEB074a', 'admin', '2024-06-02 11:57:36'),
+(2, 'user', '$2y$10$8WX.IAukvBYgvRBaB62IDOI.Bgc96AibieJ649vKqh2vjhSYVdxF6', 'user', '2024-06-02 15:43:43');
 
 --
 -- Indexes for dumped tables
@@ -88,13 +98,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT untuk tabel `bonus`
 --
 ALTER TABLE `bonus`
-  MODIFY `idbonus` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `idbonus` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

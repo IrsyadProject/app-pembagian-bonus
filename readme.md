@@ -2,7 +2,21 @@
 
 ## SOAL:
 
-<img src="./ss-tugas-coding.jpg" alt="SS Tugas" width="50%">
+<img src="./ss-tugas-coding.jpg" alt="SS Tugas" width="30%">
+
+## CARA MENGGUNAKAN:
+
+1. Gunakan laragon atau software web server yang lain, saya menggunakan php versi 8.1.10
+1. Username dan Password untuk login:
+
+```
+role Admin:
+	username: admin
+	password: admin
+role User:
+	usernema: user
+	password: user
+```
 
 ## HASIL:
 

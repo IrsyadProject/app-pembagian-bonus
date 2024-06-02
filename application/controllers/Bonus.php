@@ -68,12 +68,6 @@ class Bonus extends CI_Controller
 	}
 
 
-	public function view($id)
-	{
-		$data['bonus'] = $this->Bonus_model->get_bonus($id);
-		$this->load->view('bonus/view', $data);
-	}
-
 	public function edit($id)
 	{
 		$data = array(

@@ -27,6 +27,11 @@
 					<li class="nav-item">
 						<a class="nav-link" href="<?= base_url('bonus') ?>"><i class="fa-solid fa-hand-holding-dollar fa-fw"></i> Pembagian Bonus</a>
 					</li>
+					<?php if ($this->session->userdata('logged_in')->role == 'admin') : ?>
+						<li class="nav-item">
+							<a class="nav-link" href="<?= base_url('listusers') ?>"><i class="fa-solid fa-users fa-fw"></i> Daftar Pengguna</a>
+						</li>
+					<?php endif ?>
 				</ul>
 				<div class="d-flex">
 					<button class="btn btn-danger" onclick="confirmLogout()"><i class="fa-solid fa-right-from-bracket fa-fw"></i> Logout</button>

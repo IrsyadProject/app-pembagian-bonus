@@ -33,6 +33,19 @@ class User_model extends CI_Model
 	{
 		return $this->db->count_all('users');
 	}
+
+	public function get_all()
+	{
+		return $this->db->get('users')->result();
+	}
+
+	public function delete_users($id)
+	{
+		return $this->db->delete(
+			'users',
+			['id' => $id]
+		);
+	}
 }
 
 /* End of file User_model.php */

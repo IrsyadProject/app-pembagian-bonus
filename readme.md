@@ -35,6 +35,9 @@ role User:
 <img src="./ss-dash1.jpeg" alt="Dashboard"><hr>
 <img src="./ss-listbonus1.jpeg" alt="List"><hr>
 <img src="./ss-addbonus1.jpeg" alt="Add"><hr>
+<h4>List Bonus Role User:</h4>
+<img src="./ss-listbonus2.jpeg" alt="List Bonus User"><hr>
+<img src="./ss-detailbonus.jpeg" alt="Detail Bonus User"><hr>
 
 > [!NOTE]
-> Copyright <a href="https://www.instagram.com/99ir.ib/">Irsyad Project&copy; 2024</a>.
+> Copyright$copy;2024 <a href="https://www.instagram.com/99ir.ib/">Irsyad Project</a>.

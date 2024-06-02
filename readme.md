@@ -4,9 +4,12 @@
 
 <img src="./ss-tugas-coding.jpg" alt="SS Tugas" width="30%">
 
-## CARA MENGGUNAKAN:
+## PENJELASAN:
 
 1. Gunakan laragon atau software web server yang lain, saya menggunakan php versi 8.1.10
+1. Menggunakan codeigniter 3 karena ingin cepat walau codeigniter 3 sudah ketinggalan jaman.
+1. Ketika mengakses aplikasi pastikan terkoneksi internet, karena semua dependensi berupa cdn
+1. tombol register hanya dapat digunakan jika data pada tabel users kosong atau kurang dari 2 data
 1. Username dan Password untuk login:
 
 ```

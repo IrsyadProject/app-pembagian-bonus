@@ -40,8 +40,11 @@
 									</td>
 									<td>
 										<a href="<?= base_url('bonus/view/' . $bonus->idbonus) ?>" class="btn btn-primary btn-sm"><i class="fa-solid fa-eye fa-fw"></i> View</a>
-										<a href="<?= base_url('edit-bonus/' . $bonus->idbonus) ?>" class="btn btn-warning btn-sm"><i class="fa-solid fa-edit fa-fw"></i> Edit</a>
-										<a href="<?= base_url('hapusbonus/' . $bonus->idbonus) ?>" class="btn btn-danger btn-sm delete-btn"><i class="fa-solid fa-trash fa-fw"></i> Delete</a>
+										<?php if ($this->session->userdata('logged_in')->role == 'admin') : ?>
+											<a href="<?= base_url('edit-bonus/' . $bonus->idbonus) ?>" class="btn btn-warning btn-sm"><i class="fa-solid fa-edit fa-fw"></i> Edit</a>
+											<a href="<?= base_url('hapusbonus/' . $bonus->idbonus) ?>" class="btn btn-danger btn-sm delete-btn"><i class="fa-solid fa-trash fa-fw"></i> Delete</a>
+										<?php endif ?>
+
 									</td>
 								</tr>
 							<?php endforeach; ?>

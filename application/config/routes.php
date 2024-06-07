@@ -19,3 +19,5 @@ $route['simpan-bonus'] = 'bonus/store';
 $route['bonus/update/(:any)'] = 'bonus/update/$1';
 $route['hapusbonus/(:any)'] = 'bonus/delete/$1';
 $route['edit-bonus/(:any)'] = 'bonus/edit/$1';
+
+$route['menu'] = 'menu/index';

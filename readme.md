@@ -39,6 +39,7 @@ role User:
 <h4>List Bonus Role User:</h4>
 <img src="./ss-listbonus2.jpeg" alt="List Bonus User"><hr>
 <img src="./ss-detailbonus.jpeg" alt="Detail Bonus User"><hr>
+<img src="./ss-hirarki-menu.jpeg" alt="Hirarki Menu"><hr>
 
 > [!NOTE]
 > Copyright$copy;2024 <a href="https://www.instagram.com/99ir.ib/">Irsyad Project</a>.

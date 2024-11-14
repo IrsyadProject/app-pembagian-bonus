@@ -41,5 +41,9 @@ role User:
 <img src="./ss-detailbonus.jpeg" alt="Detail Bonus User"><hr>
 <img src="./ss-hirarki-menu.jpeg" alt="Hirarki Menu"><hr>
 
+
+> [!CAUTION]
+> Jangan Lupa di like dan Star ya!!! Terima Kasih.
+
 > [!NOTE]
 > Copyright$copy;2024 <a href="https://www.instagram.com/99ir.ib/">Irsyad Project</a>.
